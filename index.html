@@ -1,22 +1,31 @@
 <doctype html>
 <html>
 	<head>
-		<title> Page #2</title>
+		<title>CSS Layouts</title>
 		<link href="styles/main.css" rel="stylesheet" type="text/css" />
 	</head>
 
 	<body>
-		<h1>My website</h1>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li> page 2</li>
-			<li><a href="page3.html">page 3</a></li>
-		</ul>
-		<h2>Page 2</h2>
-		<p>This is all my page 2 content</p>
+		<header>
+			<nav>
+				<h1>My Page></h1>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Links</a></li>
+				</ul>
+			</nav>
+		</header>
 
-		<p class = "secondary">This is all my page 2 content</p>
+		<div class = "row">
+			<div class="col">col1</div>
+			<div class="col">col2</div>
+			<div class="col">col3</div>
+		</div>
 
-		<p id="special">This is all my page 2 content</p>
+		<footer>@2015 My Site</footer>
+		
 	</body>
 </html>
